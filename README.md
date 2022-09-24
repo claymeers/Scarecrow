@@ -3,9 +3,9 @@
 ## Overview
 This is a solution for a challenge from [DevChallenges.io](https://devchallenges.io/). Just a basic but cool and responsive 404 page.
 
-[Checkout the demo](demo.io)
+[Checkout the demo](https://claymeers.github.io/Scarecrow/)
 
-[![screenshot](Error-404.png)](demo.io)
+[![screenshot](Error-404.png)](https://claymeers.github.io/Scarecrow/)
 
 ### Built With
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
