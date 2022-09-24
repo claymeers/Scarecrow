@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Satisfy&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1400px; */
+    max-width: 85%;
+}
+
+header {
+    font-size: 24px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    user-select: none;
+    cursor: pointer;
+}
+
+header h1 {
+    align-self: flex-start;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.3rem;
+}
+
+.content h1 {
+    font-family: "Space Mono",monospace;
+    font-size: 64px;
+    letter-spacing: -0.035em;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-family: "Space Mono",monospace;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+    margin-bottom: 3rem;
+}
+
+.content a {
+    font-family: "Space Mono",monospace;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -0.035em;
+    padding: 1.6em 3em;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+footer {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", monospace;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+    .wrapper {
+        max-width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .image {
+        width: 30%;
+    }
+
+    img {
+        max-width: 500px;
+    }
+
+    .content {
+        padding-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    main {
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .image, .content {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .image img {
+        width: 470px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .content p {
+        font-size: 24px;
+    }
+    
+    .content a {
+        font-size: 14px;
+        padding: 1.4em 2.6em;
+    }
+}
